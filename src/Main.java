@@ -67,9 +67,8 @@ public class Main {
         System.out.println("Option 1  : Order Customized Pizza");
         System.out.println("Option 2  : Order from Pizza Menu");
         System.out.println("Option 3  : Order from Favourites");
-        System.out.println("Option 4  : View Promotions");
-        System.out.println("Option 5  : Go Back");
-        System.out.println("Option 6 : Exit");
+        System.out.println("Option 4  : Go Back");
+        System.out.println("Option 5 : Exit");
         System.out.print("------Choose an option------ : ");
 
         try{
@@ -81,11 +80,9 @@ public class Main {
                 Order.orderFromPizzaMenu();
             } else if(option == 3){
                 customer.viewFavouritePizzas();
-            } else if(option == 4){
-                System.out.println("View Promotions");
-            } else if(option == 5){
+            }  else if(option == 4){
                 getFirstMenu();
-            } else if(option == 6){
+            } else if(option == 5){
                 System.exit(0);
             } else {
                 System.out.println("Invalid option");
